@@ -1,311 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The JS Guy</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css'/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"defer></script>
 </head>
 <body>
-  <!-- navbar section -->
-
-  <div class="is-flex-touch">
-    <div class="columns main">
-    <div class="column is-2 links">
-    <nav class="nav">
-         <div class="nav-center">
-            <a class="nav-item">
-            <strong>JSGuy</strong>
-            </a>
-        </div>
-    </nav>
-    <aside class="menu">
-        <ul class="menu-list">
-            <li><a href="#"><i class="fa fa-home"></i>  HOME</a></li>
-            <li><a href="#"><i class="fa fa-newspaper-o"></i> NEWS</a></li>
-            <li><a href="#"><i class="fa fa-star"></i>  STARTUPS</a></li>
-            <!-- <li><a href="#"><i class="fa fa-shopping-bag"></i> BUSINESS</a></li> -->
-            <li><a href="#"><i class="fa fa-university"></i> EDUCATION</a></li>
-            <!-- <li><a href="#"><i class="fa fa-train"></i>  TRAVEL</a> </li> -->
-            <li><a href="#"><i class="fa fa-heart"></i> LIFE</a> </li>
-            <li><a href="#"><i class="fa fa-video-camera"></i>  VIDEO</a></li>
-            <!-- <li><a href="#"><i class="fa fa-calendar"></i> EVENTS</a></li> -->
-        </ul>
-    </aside>
-
-    </div>
-
-    <!-- section 1 -->
-
-     <div class="column is-3 infos">
-
-       <div class="tabs is-large">
-            <ul>
-                <li class="is-active"><a>Latest</a></li>
-                <li><a>Popular</a></li>
-            </ul>
-        </div>
-
-       <article class="media">
-                <figure class="media-left">
-                    <p class="image is-128x128">
-                    <img src="javascript.png"alt="javascript">
-                    </p>
-                </figure>
-                <div class="media-content">
-                    <div class="content">
-                    <small>1 Hour Ago</small>
-                    <p>
-                    <strong>
-                     Binary Sistem why is so important in the network world.
-                     used for ip addresses and subnet masks.
-                    </strong>
-                    </p>
-                    <small>by </small><a href="#">JSGuy</a>
-                    </div>
-                </div>
-        </article>
-
-        <!-- section 2 -->
-
-       <article class="media">
-                <figure class="media-left">
-                    <p class="image is-128x128">
-                    <img src="javascript.png">
-                    </p>
-                </figure>
-                <div class="media-content">
-                    <div class="content">
-                    <small>6 Hour Ago</small>
-                    <p>
-                    <strong>
-                      (ARP) Address Resolution Protocol How it works and
-                      more and what is its functions.
-                    </strong>
-                    </p>
-                    <small>by </small><a href="#">JSGuy</a>
-                    </div>
-                </div>
-        </article>
-
-        <!-- section 3 -->
-
-       <article class="media">
-                <figure class="media-left">
-                    <p class="image is-128x128">
-                    <img src="javascript.png">
-                    </p>
-                </figure>
-                <div class="media-content">
-                    <div class="content">
-                    <small>4 Hour Ago</small>
-                    <p>
-                        <strong>
-                     TCP IP vs IOS whats is the difference I will try to explain better 
-                     these two models and its layers !!
-                    </strong>
-                    </p>
-                    <small>by </small><a href="#">JSGuy</a>
-                    </div>
-                </div>
-        </article>
-
-        <!-- section 4 -->
-
-       <article class="media">
-                <figure class="media-left">
-                    <p class="image is-128x128">
-                    <img src="javascript.png">
-                    </p>
-                </figure>
-                <div class="media-content">
-                    <div class="content">
-                    <small>1 Hour Ago</small>
-                    <p><strong>
-                      Interprise Networks vs Home NetWorks Whats is the Diffence between those two !
-                    </p></strong>
-                    <small>by </small><a href="#">JSGuy</a>
-                    </div>
-                </div>
-        </article>
-
-    </div>
-
-    <!-- posts section -->
-
-     <div class="column is-7 posts">
-        <div class=" post">
-            <div class="columns post-header">
-                <div class="column is-8">
-                     <div class="media">
-                         <figure class="media-left">
-                             <p class="image is-64x64">
-                                 <img  src="javascript.png">
-                             </p>
-                         </figure>
-                         <div class="media-content">
-                             <div class="content">
-                                <p>
-                                  By <a href="#">JSGuy</a>  5 days ago
-                                </p>
-                             </div>
-                         </div>
-                     </div>
-                </div>
-
-                <div class="column is-4">
-                     <button class="button is-success is-pulled-right">Share</button>
-                </div>
-            </div>
-            <div class="post-body">
-                <h1 class="title is-2">This Were I show my studies for CISCO CCNA</h1>    
-                <img class="hero-image" src="cisco.png" alt="cisco">
-                <p>
-                  Colision Avoidance in Multiple access in WiFi
-                  Distributed Coordination Fuction (DCF) 
-                    Access point is not previledged. 
-                  <strong>Nodes:</strong> access point (allow devices in the network) 
-                  (BSS) Basic Service Set it identifies wifi users by (SSID) Service Set Identifier which is the actual name of the system which lets the user see  which networks are available and 
-                   to choose one to connect to. 
-                  coordination of the internet <strong>Nodes</strong><br>
-                  is needed to prevent colision on wifi. 
-                 
-                   Users colision causes node corruption and lost of
-                  the data.
-                     
-
-                </p>
-            </div>   
+         <!-- the first page -->
+         <nav>
+           <ul>
+             <li><a href="about.html">Recipes</a></li>
+             <li><button onclick="changeBg('wheat','black')">Wheat</button></li> 
+             <li><button onclick="changeBg('black','white')">Dark</button></li> 
+             <li><button onclick="changeBg('white', 'black')">White</button></li>       
             
-            <div class="post-body">
-              <h1 class="title is-2">Some Useful CISCO commands</h1>
-              <p>
-                <img class="hero-image" src="myfile.jpeg" alt="list of cisco commands ">
-              </p>
-            </div>
-
-
-        </div>
-
-       
-    </div>
-</div>
-
-</div>
-                 <!-- form section -->
-   
-<!--  
-             <h2 class="title">Drop Me A Line</h2>
-
-        <div class="field">
-          <label class="label">Name</label>
-          <div class="control">
-            <input class="input" type="text" placeholder="name">
-          </div>
-        </div>
-        
-        <div class="field">
-          <label class="label">Username</label>
-          <div class="control has-icons-left has-icons-right">
-            <input class="input" type="text" placeholder="username" required>
-            <span class="icon is-small is-left">
-              <i class="fas fa-user"></i>
-            </span>
-            <span class="icon is-small is-right">
-              <i class="fas fa-check"></i>
-            </span>
-          </div>
-           <p class="help is-success">This username is available</p> 
-        </div>
-        
-        <div class="field">
-          <label class="label">Email</label>
-          <div class="control has-icons-left has-icons-right">
-            <input class="input is-danger" type="email" placeholder="Email input">
-            <span class="icon is-small is-left">
-              <i class="fas fa-envelope"></i>
-            </span>
-            <span class="icon is-small is-right">
-              <i class="fas fa-exclamation-triangle"></i>
-            </span>
-          </div>
-          <!-- <p class="help is-danger">This email is invalid</p> 
-        </div>
-        
-        <div class="field">
-          <label class="label">Subject</label>
-          <div class="control">
-            <div class="select">
-              <select>
-                <option>Select dropdown</option>
-                <option><Canvas>CCNA</Canvas></option>
-                <option><canvas>Open University</canvas></option>
-                <option><canvas>Coding</canvas></option>
-              </select>
-            </div>
-          </div>
-        </div>
-        
-        <div class="field">
-          <label class="label">Message</label>
-          <div class="control">
-            <textarea class="textarea" placeholder="Textarea"></textarea>
-          </div>
-        </div>
-        
-        <div class="field">
-          <div class="control">
-            <label class="checkbox">
-              <input type="checkbox">
-              I agree to the <a href="#">terms and conditions</a>
-            </label>
-          </div>
-        </div>
-        
-    
-        
-        <div class="field is-grouped">
-          <div class="control">
-            <button class="button is-success ">Submit</button>
-          </div>
-          <div class="control">
-            <button class="button is-danger">Cancel</button>
-          </div>
-        </div> -->
-        
-      </main>
-
-      <!-- footer section -->
-
-      <footer class="footer has-background-success">
-
-        <div class="content has-text-centered">
-            
-            <p> 
-                <a class="has-text-white" href="#"><strong>JSGuy</strong></a>
-                
-            </p>
-         <p>
-                
-
-                  
-           <a class="has-text-white" href="#">Contact</a>
-          
-        </p>
-        <p>
-           <a class="has-text-white" href="#">More</a>
-          
-         </p>
+           </ul>
+         </nav>
+     <main>
+     
+       <section>
       
+      <br>
+      <h1>Sandwich</h1>
+      <div class="image">
+        <div>
 
         </div>
-     </footer>
+        <div>
+       <img src="https://i.postimg.cc/wjtwZnL0/pexels-amina-filkins-5427310.jpg" alt="Sandwich">
+       <figcaption>Image by Anima Filkins Pexels</figcaption>
+      </div>
+      <div>
+        <!-- empty divs -->
+      </div>
+      </div>
 
-    <script src="script.js"></script> 
+      
+       <h2>Ingredients</h2>
+       <ul>
+         <li>Ham and Cheese</li>
+        <li>Bread</li>
+        <li>Butter</li>
+        <li>Lettuce</li>
+        <li>Tomato</li>  
+      </ul>
+          <h2>Preparation</h2>
+
+          <ol>
+            <li>Put the bread in the toast leave it until us toasted enough.</li>
+            <li>Put the butter on the bread on one side.</li>
+            <li>place the two slices of ham on over the bread with the butter side.</li>
+            <li>Then place the cheese on top of it.</li>
+            <li>Place the lettuce on top of it as well.</li>
+            <li>slice the tomatoes than place two slices on top of the lettuce.</li>
+            <li>Finally put the butter on the other bread slice and place on top of everything.</li>
+            <li>Your Sandwich is done enjoy it!!</li>
+          </ol>
+        </section>
+
+     </main>
+  
 </body>
 </html>
