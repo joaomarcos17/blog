@@ -4,92 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Recipes</title>
- <script src="index.js"defer></script>
- <style>
-   body,html{
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-main{
-    padding: 2rem;
-    margin: 1rem 0 1rem;
-    border-radius: 1rem;
-}
-nav li {
-    display: inline;
-    margin-left: 1rem;
-}
-nav {
-    background-color: rgb(92, 196, 78);
-    width: 100%;
-    padding: 5px;
-}
-a {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-}
-li {
-    margin-top: .4rem;
-    
-}
+  <title>Recipe1</title>
+  <link rel="stylesheet" href="./css/index.css">
 
-h1{
-    text-align: center;
-
-}
-button{
-    border: none;
-    padding: 30px;
-    background-color: skyblue;
-    border-radius: 5px;
-
-}
-button:hover{
-    background-color: slategray;
-}
-button {
-    color:#ffff;
-    font-weight: bold;
-}
-
-
-img{
-    width: 100%;
-}
-@media screen and (min-width:40em){
- 
-    h2, ul, ol{
-        margin-left: 4rem;
-    }
-
-section{
-    padding: 2rem;
-    margin: 3rem;
-    border-radius: 1rem;
-   
-}
-.image{
-    display: grid;
-    grid-template-columns:10% 80% 10%;
-    grid-template-rows: inherit;
-}
-
-}
-
- </style>
 </head>
 <body>
          <!-- the first page -->
          <nav>
            <ul>
-             <li><a href="about.html">Recipes</a></li>
-             <li><button onclick="changeBg('wheat','black')">Wheat</button></li> 
-             <li><button onclick="changeBg('black','white')">Dark</button></li> 
-             <li><button onclick="changeBg('white', 'black')">White</button></li>       
+             <li><a href="#">Recipe1</a></li>
+             <li><a href="about.html">Recipe2</a></li> 
+             <li><a href="index2.html">Recipe3</a></li> 
+             <li><a href="index3.html">Recipe4</a></li>       
             
            </ul>
          </nav>
@@ -135,19 +61,17 @@ section{
           </ol>
         </section>
 
+
+        <button onclick="changeBg('wheat','black')">Wheat</button>
+        <button onclick="changeBg('black','white')">Dark</button>
+        <button onclick="changeBg('white', 'black')">White</button>
+
      </main>
 
-     <script>
-
-function changeBg(newBackground, newForeground ) {
-
-document.body.style.backgroundColor = newBackground;
-document.body.style.color = newForeground;
-
-}
 
 
-     </script>
+
+     <script src="./js/script.js"></script>
   
 </body>
 </html>

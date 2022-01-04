@@ -4,19 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <style>
-        body{
-            background-color: black;
-            color: white;
-        }
-        h1{
-            text-align: center;
-            font-size: 170px
-        }
-    </style>
+    <title>Recipe2</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <!--  -->
 </head>
 <body>
-    <h1>About</h1>
+
+        <!-- the first page -->
+        <nav>
+            <ul>
+              <li><a href="index.html">Recipe1</a></li>
+              <li><a href="#">Recipe2</a></li> 
+              <li><a href="index2.html">Recipe3</a></li> 
+              <li><a href="index3.html">Recipe4</a></li>       
+             
+            </ul>
+          </nav>
+         
+    <main>
+     
+        <section>
+       
+       <br>
+       <h1>Sandwich</h1>
+       <div class="image">
+         <div>
+ 
+         </div>
+         <div>
+        <img src="https://i.postimg.cc/wjtwZnL0/pexels-amina-filkins-5427310.jpg" alt="Sandwich">
+        <figcaption>Image by Anima Filkins Pexels</figcaption>
+       </div>
+       <div>
+         <!-- empty divs -->
+       </div>
+       </div>
+ 
+       
+        <h2>Ingredients</h2>
+        <ul>
+          <li>Ham and Cheese</li>
+         <li>Bread</li>
+         <li>Butter</li>
+         <li>Lettuce</li>
+         <li>Tomato</li>  
+       </ul>
+           <h2>Preparation</h2>
+ 
+           <ol>
+             <li>Put the bread in the toast leave it until us toasted enough.</li>
+             <li>Put the butter on the bread on one side.</li>
+             <li>place the two slices of ham on over the bread with the butter side.</li>
+             <li>Then place the cheese on top of it.</li>
+             <li>Place the lettuce on top of it as well.</li>
+             <li>slice the tomatoes than place two slices on top of the lettuce.</li>
+             <li>Finally put the butter on the other bread slice and place on top of everything.</li>
+             <li>Your Sandwich is done enjoy it!!</li>
+           </ol>
+         </section>
+
+         <br>
+          
+         <button onclick="changeBg('wheat','black')">Wheat</button>
+         <button onclick="changeBg('black','white')">Dark</button>
+         <button onclick="changeBg('white', 'black')">White</button>
+
+ 
+      </main>
+      <script src="./js/script.js"></script>
 </body>
 </html>
