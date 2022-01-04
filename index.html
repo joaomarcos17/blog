@@ -5,8 +5,82 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recipes</title>
-  <link rel="stylesheet" href="index.css">
-  <script src="index.js"defer></script>
+ <script src="index.js"defer></script>
+ <style>
+   body,html{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    padding: 2rem;
+    margin: 1rem 0 1rem;
+    border-radius: 1rem;
+}
+nav li {
+    display: inline;
+    margin-left: 1rem;
+}
+nav {
+    background-color: rgb(92, 196, 78);
+    width: 100%;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+li {
+    margin-top: .4rem;
+    
+}
+
+h1{
+    text-align: center;
+
+}
+button{
+    border: none;
+    padding: 30px;
+    background-color: skyblue;
+    border-radius: 5px;
+
+}
+button:hover{
+    background-color: slategray;
+}
+button {
+    color:#ffff;
+    font-weight: bold;
+}
+
+
+img{
+    width: 100%;
+}
+@media screen and (min-width:40em){
+ 
+    h2, ul, ol{
+        margin-left: 4rem;
+    }
+
+section{
+    padding: 2rem;
+    margin: 3rem;
+    border-radius: 1rem;
+   
+}
+.image{
+    display: grid;
+    grid-template-columns:10% 80% 10%;
+    grid-template-rows: inherit;
+}
+
+}
+
+ </style>
 </head>
 <body>
          <!-- the first page -->
@@ -62,6 +136,18 @@
         </section>
 
      </main>
+
+     <script>
+
+function changeBg(newBackground, newForeground ) {
+
+document.body.style.backgroundColor = newBackground;
+document.body.style.color = newForeground;
+
+}
+
+
+     </script>
   
 </body>
 </html>
