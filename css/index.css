@@ -65,10 +65,19 @@ section{
     border-radius: 1rem;
    
 }
-.image{
+.image,
+.bread,
+.wrap{
     display: grid;
     grid-template-columns:10% 80% 10%;
     grid-template-rows: inherit;
 }
 
+
+
+   
+    
+
+
 }
+
